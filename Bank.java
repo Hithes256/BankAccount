@@ -9,11 +9,11 @@ public class Bank{
     balance+=depositAmt;
     System.out.println("Balance after Depositing "+depositAmt+" : "+balance);
 
-    if(withdraw > balance){
+    if(withdrawAmt > balance){
       System.out.println("Insufficient Balance! Can't withdraw");
     }
     else{
-      balance-=withdraw;
+      balance-=withdrawAmt;
       System.out.println("Balance after withdrawing "+withdrawAmt+" : "+balance);
     }
 
