@@ -8,6 +8,7 @@ public class AlternativePrime{
           isPrime=false;
           break;
         }
+      }
       if(isPrime){
         count++;
         if(count%2==1){
@@ -16,5 +17,4 @@ public class AlternativePrime{
       }
     }
   }
-}
 }
