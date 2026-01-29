@@ -8,13 +8,13 @@ public class AlternativePrime{
           isPrime=false;
           break;
         }
-        if(isPrime){
-          count++;
-          if(count%2==1){
-            System.out.println(num+" ");
-          }
+      if(isPrime){
+        count++;
+        if(count%2==1){
+          System.out.print(num+" ");
         }
       }
     }
   }
+}
 }
